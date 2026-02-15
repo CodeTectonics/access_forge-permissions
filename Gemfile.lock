@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    analytics_plane (0.1.0)
+    access_forge-permissions (0.1.0)
       rails (>= 6.1)
 
 GEM
@@ -241,7 +241,7 @@ PLATFORMS
   aarch64-linux
 
 DEPENDENCIES
-  analytics_plane!
+  access_forge-permissions!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)

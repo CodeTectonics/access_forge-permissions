@@ -3,7 +3,7 @@
 require_relative "lib/access_forge/permissions/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "analytics_plane"
+  spec.name = "access_forge-permissions"
   spec.version = AccessForge::Permissions::VERSION
   spec.authors = ["Mark Harbison"]
   spec.email = ["mark@tyne-solutions.com"]
