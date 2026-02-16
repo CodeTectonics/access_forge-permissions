@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Mark Harbison"]
   spec.email = ["mark@tyne-solutions.com"]
 
-  spec.summary = "A persistence-backed AccessForge implementation for permission based authorisation."
-  spec.description = "A persistence-backed AccessForge implementation for permission based authorisation."
+  spec.summary = "The official permission layer for AccessForge."
+  spec.description = "The official permission layer for AccessForge."
   spec.homepage = "https://github.com/CodeTectonics/access_forge-permissions"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
