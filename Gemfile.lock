@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    access_forge-permissions (1.0.0)
+    access_forge-permissions (1.0.1)
       rails (>= 6.1)
 
 GEM
