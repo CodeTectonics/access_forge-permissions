@@ -64,15 +64,17 @@ class EmployeePolicy < AccessForge::Policy
   def index?
     authorized?(
       [ PermissionPolicyRule ],
-      { feature: 'Employees', verb: :read }
+      { permission: "employees.read" }
     )
   end
 end
 ```
 
+The required permission is passed explicitly via the `:permission` option.
+
 When evaluated, the rule checks:
 ```
-current_user.permissions.exists?({ permissions: { name: "Can #{options[:verb]} #{options[:feature]}" } })
+user.permissions.exists?(name: options[:permission])
 ```
 
 If the permission exists, the rule passes.
